@@ -1,0 +1,86 @@
+set dir to multi.py directory
+On your Anaconda terminal type: python multi.py to execute the code.
+
+We need to select all the objects which are risky or affected by the risk. Also any abnormal behavior of any vehicle. (eg. some drivers may get scared by the movement of other vehicles)
+This code now supports selection of a maximum of 4 objects. Press the key as per below to select objects:
+Space: for selecting the first object.
+a: for the second object if any. If you think there is a second object who is risky or will get affected or abnormal behavior.
+s: for the third object if any. If you think there is a third object who is risky or will get affected or abnormal behavior.
+d: for the fourth object if any. If you think there is a fourth object who is risky or will get affected or abnormal behavior.
+
+After pressing the above keys, you need to hit Enter to continue.
+Esc: to unselect all the selected objects
+c: when no object is selected, pressing this key will increase the speed of the video.
+
+To restart from the 11th video you need to put "Done" status in the csv file for the first 10 videos. Be careful about the tracking results. Last video results may be partially saved. Before restarting, delete the tracking results of that video.
+
+In the middle of code execution if you need to stop the code, press ctr+c in your anaconda prompt.
+
+To pause in the middle of the video you need to hit 'p'.
+Besides that, you can split the csv file (michael_normal.csv) into multiple files if you think that is convenient.
+
+
+*it seems that the michael_normal.csv file is not being written to
+ because of this, I have to move videos that I already watched before next code execution
+ when it skips a video, it makes a blank csv file and overwrites what I have already done
+
+*generally, there is a bbox tracking problem when vehicles are obscured
+
+suggestion: enable code to play back video with bounding boxes
+
+
+6. debris selected, not car
+     *go back and deselect since tracking changes to car after hit
+
+24. hard to track first risk, tracking messed up
+26. tracking messes up when they approach third truck
+29. hard time detecting trailer, i chose only truck
+    can i unselect one box and keep other? after they crash, they get mangled
+42. this clip is definitely the dashcam driver's fault - they were going too fast
+    also, tracking messes up with this clip
+53. bbox switches at end
+
+
+61 REDO, obscuring
+67 expands a lot at the end
+69 has no other vehicle involved besides self
+74 it would be helpful to be able to deselect one option and then reselect due to obscuring
+78 bbox switches to other car so I had to switch back
+79 second box also doesn't disappear into corner at end
+84 commentary: a limitation is that we can't see the left car speeding into the picture beforehand
+    bbox switches to debris at end (truncate)
+
+85 REDO, tracking issue
+86 tracking box messes up
+87 doesn't expand properly
+91 REDO, tracking issue
+93 tracking jumps to sign
+95 obscuring
+103 tracking problem near end
+104 rear end off camera
+106 windshield wiper messes up a small bit
+107 REDO, hard to track as it is obscured
+115 hard to track, obscuring
+skipped 116 which appears to be duplicate
+117 car 2 comes in really quickly, tracking messes up with crash and debris
+118 it's hard to know a crash will happen before watching - the computer just sees the truck rear end someone suddenly
+122 truncate after accident since the video splits
+125 REDO, tracking issue
+127 REDO, hectic
+128 obscuring
+132 not dashcam
+133 obscuring
+137 brief timeskip
+138 redo
+141 redo
+146 redo
+147 redo
+148 no car to car accident
+149 redo, blurry
+153 pov rear end
+158 redo
+164 very end is a bit errored, redo?
+166 redo
+179redo
+*update csv
+

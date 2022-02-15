@@ -1,0 +1,89 @@
+﻿video_id,frame1,accident,last,Manner of collision,status
+1_M,0,40,,N/A,Done
+2_M,0,20,,Front to rear,Done
+3_M,0,45,,Front to rear,Done
+5_M,0,35,,N/A,Done
+6_M,0,19,,N/A,Done
+7_M,180,250,,N/A,Done
+8_M,45,115,,N/A,Done
+10_M,0,45,,N/A,Done
+11_M,5,70,,Front to rear,Done
+12_M,5,70,,Front to rear,Done
+13_M,15,80,,Sideswipe same direction,Done
+14_M,5,70,,Front to rear,Done
+15_M,20,90,,N/A,Done
+16_M,0,60,,N/A,Done
+18_M,5,80,,Sideswipe same direction,Done
+19_M,65,130,,Sideswipe same direction,Done
+20_M,15,90,,Front to front,Done
+21_M,0,45,,Front to rear,Done
+23_M,0,65,99,Front to rear,Done
+24_M,0,60,95,Sideswipe same direction,Done
+25_M,0,50,85,N/A,Done
+26_M,11,75,110,Front to rear,Done
+29_M,0,20,55,Angle,Done
+30_M,0,35,70,Front to rear,Done
+37_M,56,120,155,N/A,Done
+39_M,16,80,115,Front to front,Done
+40_M,31,95,130,Front to front,Done
+42_M,16,81,115,Front to rear,Done
+49_M,71,140,170,Front to rear,Done
+50_M,0,58,93,Front to rear,Done
+51_M,0,55,80,Angle,Done
+52_M,11,75,110,Angle,Done
+53_M,0,63,99,Front to front,Done
+56_M,30,94,129,Sideswipe same direction,Done
+57_M,11,75,110,Front to rear,Done
+61_M,2,66,101,Front to front,Done
+62_M,0,60,99,N/A,Done
+66_M,36,100,135,N/A,Done
+67_M,0,55,85,Sideswipe same direction,Done
+69_M,31,95,130,N/A,Done
+70_M,59,118,158,N/A,Done
+74_M,91,150,190,Front to rear,Done
+75_M,31,95,130,Front to front,Done
+76_M,21,85,120,Front to front,Done
+77_M,31,95,130,Front to front,Done
+78_M,2,70,101,Angle,Done
+79_M,0,60,99,Front to front,Done
+80_M,11,75,110,Front to front,Done
+83_M,71,140,170,N/A,Done
+84_M,0,35,70,Front to rear,Done
+85_M,0,15,50,Angle,Done
+86_M,0,55,95,N/A,Done
+87_M,0,45,85,N/A,Done
+89_M,0,50,90,N/A,Done
+90_M,11,75,110,Angle,Done
+91_M,36,100,35,N/A,Done
+92_M,11,75,110,Front to front,Done
+93_M,77,136,176,N/A,Done
+94_M,0,35,70,Front to front,Done
+95_M,0,30,65,Angle,Done
+96_M,0,20,40,Front to front,Done
+99_M,0,90,119,Angle,Done
+102_M,0,55,99,Sideswipe same direction,Done
+103_M,21,85,120,Front to front,Done
+104_M,56,120,155,Front to rear,Done
+105_M,0,30,65,Angle,Done
+106_M,21,85,120,Front to rear,Done
+107_M,0,65,100,Sideswipe same direction,Done
+109_M,56,120,155,N/A,Done
+112_M,11,80,110,Front to front,Done
+113_M,31,100,130,Angle,Done
+115_M,81,145,180,Front to front,Done
+116_M ,56,120,155,Front to front,Done
+117_M,0,50,70,Angle,Done
+118_M,0,35,70,Front to rear,Done
+121_M,0,30,60,Front to front,Done
+122_M,0,30,46,Front to front,Done
+123_M,11,70,110,N/A,Done
+124_M,0,30,55,N/A,Done
+125_M,51,120,150,Angle,Done
+126_M,51,120,145,N/A,Done
+127_M,1,75,100,Angle,Done
+128_M,0,65,90,Angle,Done
+131_M,1,70,100,Front to rear,Done
+132_M,0,50,75,N/A,Done
+133_M,76,140,175,N/A,Done
+134_M,0,30,70,Sideswipe same direction,Done
+135_M,16,90,115,Front to rear,Done
