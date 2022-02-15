@@ -15,9 +15,9 @@ import logging
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--video_dir", default="../michael_normal/")
+    parser.add_argument("--video_dir", default="../michael_normal/") # folder name that contains the video
     parser.add_argument("--direction", type=str, default="forward", choices= ["forward","backward"], help='video direction forward or backward, default: forward')
-    parser.add_argument("--files", default="michael_normal.csv")
+    parser.add_argument("--files", default="michael_normal.csv") # file name that contains the list of videos
     parser.add_argument("--destination_dir", default = 'tracking_results')
     parser.add_argument("--width", help='cap width', type=int, default=1080)
     parser.add_argument("--height", help='cap height', type=int, default=720)
