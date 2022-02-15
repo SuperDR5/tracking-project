@@ -10,6 +10,8 @@ import cv2 as cv
 import logging
 
 
+#this is some comment
+
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--video_dir", default="../michael_normal/")
