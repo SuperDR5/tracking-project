@@ -11,6 +11,7 @@ import logging
 
 
 #this is some comment
+#this is the 2nd comment
 
 def get_args():
     parser = argparse.ArgumentParser()
